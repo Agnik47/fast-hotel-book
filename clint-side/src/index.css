@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+  font-family: Outfit;
+}
+.font-playfair {
+  font-family: Playfair !important;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 3px;
+
+}
+::-webkit-scrollbar-thumb {
+  background-color:  purple;
+}
+/* Color Code  */
+
+@theme {
+  --color-primary: #334c96;
+  --color-secondary: #FBBF24;
+} 
