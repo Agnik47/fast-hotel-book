@@ -123,7 +123,7 @@ const Navbar = () => {
               <UserButton.Action
                 label="My bookings"
                 labelIcon={<BookIcon />}
-                onClick={() => navigate("/my-bookings")}
+                onClick={() => {navigate("/my-bookings"); scrollTo(0,0)}}
               />
             </UserButton.MenuItems>
           </UserButton>

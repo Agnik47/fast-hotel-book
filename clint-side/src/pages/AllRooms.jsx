@@ -116,7 +116,7 @@
 
                     {/* Room Prcie per Night  */}
                     <p className="text-xl font-medium text-gray-700">
-                    `${room.pricePerNight} /nights`
+                    ${room.pricePerNight} /Night
                     </p>
                 </div>
                 </div>
