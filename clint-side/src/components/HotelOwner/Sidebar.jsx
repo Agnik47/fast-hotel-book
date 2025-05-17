@@ -10,7 +10,7 @@ const Sidebar = () => {
         { name: "List Room", path: "/owner/list-room", icon: assets.dashboardIcon },
       ];
   return (
-    <div className="md:w-64 w-16 border-r h-full text-base border-gray-300 pt-4 flex flex-col transform-all duration-300">
+    <div className="md:w-64 w-16 border-r h-full text-base border-gray-300 pt-4 hidden md:flex flex-col transform-all duration-300">
       {sideBarLinks.map((item, index) => (
         <NavLink    
           to={item.path}

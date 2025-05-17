@@ -174,7 +174,7 @@ export const roomCommonData = [
 //! User Dummy Data
 export const userDummyData = {
   _id: "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-  username: "Great Stack",
+  username: "Agnik Paul",
   email: "user.greatstack@gmail.com",
   image:
     "https://media.licdn.com/dms/image/v2/D5603AQGsdmWKeGx6Rw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1704181522791?e=2147483647&v=beta&t=9o2iS8ROpk0Tbdd6y42cPbkOb1TAEgwaj9cxtmFPpS0",

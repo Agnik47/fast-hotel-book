@@ -96,7 +96,7 @@ const Navbar = () => {
 
         {user && (
           <button
-          onClick={()=>navigate('/owner')}
+          onClick={()=>{navigate('/owner'); scrollTo(0,0)}}
             className={`border px-4 py-1 text-sm font-light rounded-full cursor-pointer hover:bg-gray-800 hover:border-gray-800 hover:text-white ${
               isScrolled ? "text-black" : "text-white "
             } transition-all duration-300`}
