@@ -3,7 +3,7 @@ import { Webhook } from 'svix';
 
 const clerkWebhooks = async (req, res) => {
   try {
-    const webhook = new Webhook(process.env.CLERK_WEBHOOK_SECRET);  // typo fixed: SERECT ➝ SECRET
+    const webhook = new Webhook(process.env.CLERK_WEBHOOK_SERECT); 
     const headers = {
       "svix-id": req.headers["svix-id"],
       "svix-timestamp": req.headers["svix-timestamp"],
@@ -16,7 +16,7 @@ const clerkWebhooks = async (req, res) => {
 
     const userData = {
       _id: data.id,
-      email: data.email_addresses[0].email_address,  // fixed typo
+      email: data.email_addresses[0].email_address,  
       userName: data.first_name + " " + data.last_name,
       image: data.image_url,
       recentSearchCities: [],  // default to empty array
